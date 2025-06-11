@@ -48,14 +48,7 @@ Consolidar conocimientos sobre expresiones, variables de entorno y funciones en 
    * **Step 3:** _"Print Variables"_
      
      * Definir variables de entorno a nivel de step:
-       * `STEP_VAR`: `'Step-level variable'`.
-     * Imprimir las siguientes líneas:
-     
-     ```bash
-     "Step var: ${{ env.STEP_VAR }}" 
-     "Job var: ${{ env.JOB_VAR }}" 
-     "Workflow var: ${{ env.WORKFLOW_VAR }}" 
-     "Overwritten: ${{ env.OVERWRITTEN }}"
+       * `STEP_VAR`: `'Step-level variable'STEP_VAR`: `'Step-level variable'
      ```
    * **Step 4:** _"Overwrite and Print"_
      
